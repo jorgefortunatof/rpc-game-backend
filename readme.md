@@ -1,5 +1,5 @@
 # Inicializar
-Para inicializar o servidor basta rodar um *npm* *install* e um *npm* *start* em seguida.
+Para inicializar o servidor basta rodar um **npm** **install** e um **npm** **start** em seguida.
 
 # Rotas
 
