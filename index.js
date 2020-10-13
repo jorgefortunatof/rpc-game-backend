@@ -1,6 +1,8 @@
+const cors = require('cors')
 const express = require('express')
 const jsonRouter = require('express-json-rpc-router')
 const app = express()
+
 
 
 clientes = [
@@ -65,7 +67,7 @@ const controller = {
     }
 }
 
-
+app.use(cors())
 app.use(express.json())
 app.use(jsonRouter({ methods: controller }))
 app.listen(3000, () => console.log('listening on port 3000'))
